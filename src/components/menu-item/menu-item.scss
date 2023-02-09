@@ -1,0 +1,38 @@
+.menu-item{
+    min-width: 30%;
+    height: 240px;
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 7.5px 15px;
+    border: 1px solid #000;
+
+    &:first-child{
+        margin-right: 7.5px;
+    }
+    &:last-child{
+        margin-left: 7.5px;
+    }
+
+    .content{
+        height: 90px;
+        padding: 0 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border: 1px solid #000;
+
+        .title{
+            font-weight: bold;
+            font-size: 22px;
+            color: #4a4a4a;
+            margin-bottom: 6px;
+        }
+        .subtitle{
+            font-size: 16px;
+            font-weight: lighter;
+        }
+    }
+}
